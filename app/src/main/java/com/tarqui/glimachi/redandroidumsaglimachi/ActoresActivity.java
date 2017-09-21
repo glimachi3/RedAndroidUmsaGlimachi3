@@ -25,10 +25,8 @@ public class ActoresActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_actores);
-
         Bundle bundle = this.getIntent().getExtras();
         strActor = bundle.getString("actor");
-
         peliculasRecyclerView = (RecyclerView) findViewById(R.id.peliculasRecyclerView);
         peliculasRecyclerView.setHasFixedSize(true);
         peliculasRecyclerView.setLayoutManager(new LinearLayoutManager(this));
