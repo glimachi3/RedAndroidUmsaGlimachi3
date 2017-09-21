@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/eso">
+
+    <Button
+        android:id="@+id/btnPelicula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnActor"
+        android:layout_alignRight="@+id/btnActor"
+        android:layout_below="@+id/pelicula"
+        android:background="@drawable/side_nav_bar"
+        android:text="    Buscar Pelicula    " />
+
+    <EditText
+        android:id="@+id/pelicula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="62dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="26dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="transformer"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/actor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="megan fox"
+        android:layout_below="@+id/btnPelicula"
+        android:layout_alignLeft="@+id/pelicula"
+        android:layout_alignStart="@+id/pelicula"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp" />
+
+    <Button
+        android:id="@+id/btnActor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/pelicula"
+        android:layout_alignRight="@+id/pelicula"
+        android:layout_below="@+id/actor"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/side_nav_bar"
+        android:text="    Bucar Actor    " />
+
+</RelativeLayout>
