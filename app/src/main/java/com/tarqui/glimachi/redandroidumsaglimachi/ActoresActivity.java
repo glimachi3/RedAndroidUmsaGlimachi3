@@ -32,7 +32,6 @@ public class ActoresActivity extends AppCompatActivity {
         peliculasRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
-
         rootView = findViewById(R.id.rootView);
     }
     @Override
